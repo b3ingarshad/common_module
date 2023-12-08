@@ -33,12 +33,12 @@
   "files": [
     "/dist"
   ],
-  "main": "./dist/common_module_web.umd.js",
-  "module": "./dist/common_module_web.es.js",
+  "main": "./dist/common_module.umd.js",
+  "module": "./dist/common_module.es.js",
   "exports": {
     ".": {
-      "import": "./dist/common_module_web.es.js",
-      "require": "./dist/common_module_web.umd.js"
+      "import": "./dist/common_module.es.js",
+      "require": "./dist/common_module.umd.js"
     }
   },
   "repository": {
