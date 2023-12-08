@@ -1,5 +1,5 @@
 {
-  "name": "import_module",
+  "name": "common_module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajdip112/import-module"
+    "url": "https://github.com/rajdip112/common-module"
   },
   "eslintConfig": {
     "extends": [
@@ -58,8 +58,8 @@
     "liferay-npm-bundler-preset-create-react-app": "^2.31.2"
   },
   "portlet": {
-    "com.liferay.portlet.display-category": "category.import_module",
-    "javax.portlet.name": "import_module",
+    "com.liferay.portlet.display-category": "category.common_module",
+    "javax.portlet.name": "common_module",
     "javax.portlet.security-role-ref": "power-user,user",
     "javax.portlet.resource-bundle": "content.Language",
     "com.liferay.portlet.instanceable": true
