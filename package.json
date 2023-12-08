@@ -30,6 +30,17 @@
     "deploy:liferay": "npm run build:liferay && lnbs-deploy",
     "deploy": "npm run deploy:liferay"
   },
+  "files": [
+    "/dist"
+  ],
+  "main": "./dist/common_module_web.umd.js",
+  "module": "./dist/common_module_web.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/common_module_web.es.js",
+      "require": "./dist/common_module_web.umd.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rajdip112/common-module"
