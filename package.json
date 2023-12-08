@@ -1,5 +1,5 @@
 {
-  "name": "common_import_module",
+  "name": "import_module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,6 @@
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
-    "dayjs": "^1.11.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -34,17 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rajdip112/import-module"
-  },
-  "files": [
-    "/dist"
-  ],
-  "main": "./dist/common_import_module.umd.js",
-  "module": "./dist/common_import_module.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/common_import_module.es.js",
-      "require": "./dist/common_import_module.umd.js"
-    }
   },
   "eslintConfig": {
     "extends": [
@@ -70,8 +58,8 @@
     "liferay-npm-bundler-preset-create-react-app": "^2.31.2"
   },
   "portlet": {
-    "com.liferay.portlet.display-category": "category.common_import_module",
-    "javax.portlet.name": "common_import_module",
+    "com.liferay.portlet.display-category": "category.import_module",
+    "javax.portlet.name": "import_module",
     "javax.portlet.security-role-ref": "power-user,user",
     "javax.portlet.resource-bundle": "content.Language",
     "com.liferay.portlet.instanceable": true
